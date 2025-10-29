@@ -1,5 +1,5 @@
 ---
-cellIdPreamble: "cell-"
+cellIdPreamble: ""
 cells:
   nlb_in_bw:
     dataRef: "nlb_in_bw"
