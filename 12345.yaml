@@ -1,0 +1,21 @@
+---
+cellIdPreamble: "cell-"
+cells:
+  nlb_in_bw:
+    dataRef: "nlb_in_bw"
+    label:
+      separator: "colon"
+      units: "bps"
+      decimalPoints: 0
+    labelColor:
+      gradientMode: "hue"
+      thresholds:
+        - { color: "green", level: 0 }
+        - { color: "orange", level: 300000000 }   # 300 Mbps
+        - { color: "red", level: 600000000 }      # 600 Mbps
+    fillColor:
+      gradientMode: "hue"
+      thresholds:
+        - { color: "semi-dark-green", level: 0 }
+        - { color: "orange", level: 300000000 }
+        - { color: "red", level: 600000000 }
